@@ -1,0 +1,4 @@
+@import "tailwindcss";
+.login-input {
+    @apply w-full p-2 rounded-lg border border-gray-300 bg-gray-50 focus:bg-white outline-none;
+}

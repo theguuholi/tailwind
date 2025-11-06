@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/output.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>Curso Tailwind CSS</h1>
-    <h2>Test</h2>
+<body class="bg-slate-200">
+    <main class="w-full min-h-screen flex flex-col md:flex-row items-center justify-center mx-auto ">
+
+        <section class="w-full flex-1 flex flex-col justify-center items-center p-4">
+            <div class="w-full max-w-xl justify-center items-center flex flex-col gap-4">
+                <img src="./assets/user.png" alt="logo" class="size-36 hover:scale-110 duration-300">
+                <h1 class="text-2xl font-bold mb-7">Login</h1>
+                <input type="email" placeholder="Your Email..." class="login-input">
+                <input type="password" placeholder="Your Password..." class="login-input">
+            </div>
+        </section>
+        <section class="hidden md:flex w-full flex-1 bg-green-500">Right</section>
+    </main>
 </body>
 </html>
